@@ -1,8 +1,9 @@
 import Header from './components/header/Header';
 import './App.css';
-import { Analytics } from '@vercel/analytics/react';
+import * as Analytics from '@vercel/analytics';
 
 function App() {
+  
   return (
     <>
       <Header />
