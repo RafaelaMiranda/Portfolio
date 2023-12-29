@@ -13,7 +13,6 @@ const Data = () => {
       <h3 className="home__subtitle">Desenvolvedora Web</h3>
       <p className="home__description">Desenvolvedora web apaixonada e dedicada, em constante busca por inovação e desafios para aprimorar suas habilidades, contribuindo para projetos notáveis no universo digital. <img src={globe} alt="ícone de um globo" width={16} /></p>
       <Social />
-
     </div>
   )
 }
