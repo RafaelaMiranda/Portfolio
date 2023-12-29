@@ -1,24 +1,20 @@
 import React from "react";
-import hand from '../../assets/hand.svg';
-import send  from '../../assets/send.svg';
 import Social from "./Social";
+import coffee from "../../assets/coffee.png";
+import globe from "../../assets/globe.png";
 
 const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
         Rafaela Miranda
-        <img src={hand} alt="ícone de mão" className="home__hand"/>
+        <img src={coffee} alt="ícone de uma xícara de café" className="home__coffee" />
       </h1>
       <h3 className="home__subtitle">Desenvolvedora Web</h3>
-      <p className="home__description">Sou uma desenvolvedora web criativa, fervorosamente apaixonada e dedicada ao meu trabalho. Busco incessantemente inovações e desafios que impulsionem o aprimoramento das minhas habilidades, contribuindo para projetos notáveis no vasto universo digital. Residente em Santa Bárbara d'Oeste, SP. 📌</p>
+      <p className="home__description">Desenvolvedora web apaixonada e dedicada, em constante busca por inovação e desafios para aprimorar suas habilidades, contribuindo para projetos notáveis no universo digital. <img src={globe} alt="ícone de um globo" width={16} /></p>
 
       <Social />
 
-      <a href="#contact" className="button button--flex">
-        Entre em contato
-        <img src={send} alt="ícone de enviar" />
-      </a>
     </div>
   )
 }
