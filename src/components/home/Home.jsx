@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';
+import '../home/home.css';
 import Data from "./Data";
 
 const Home = () => {
