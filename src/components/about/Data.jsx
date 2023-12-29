@@ -1,4 +1,6 @@
 import React from "react";
+import file from '../../assets/files.svg';
+import CV from "../../assets/rafaela-miranda-cv.pdf";
 
 const Data = () => {
   return (
@@ -9,6 +11,10 @@ const Data = () => {
         <p className="about__description">
           Como desenvolvedora, possuo um conjunto de habilidades em HTML, CSS, JavaScript, React, Tailwind e PHP. Me destaco pela acessibilidade e manutenção de sites responsivos que oferecem uma experiência do usuário fluida. Minha especialidade está em criar interfaces dinâmicas e interativas por meio da escrita de código limpo e otimizado, utilizando ferramentas e técnicas de desenvolvimento de ponta. 
         </p>
+        <a href={CV} download="" className="button button--flex">
+          Download CV
+          <img src={file} alt="ícone de um arquivo"/>
+        </a>
       </div>
     </div>
   )

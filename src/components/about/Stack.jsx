@@ -3,10 +3,10 @@ import './about.css';
 
 const Stack = () => {
   return (
-    <div className="about__stack grid">
+    <div className="about__stack">
       <div className="about__stack-container">
         <div className="about__stack-box">
-        <h4 className="about__stack-title">Stack</h4>
+        <h3 className="about__stack-title">Stack</h3>
           <div className="about__stack-group">
             <div className="about__stack-data">
               <img src="https://skillicons.dev/icons?i=html" alt="HTML logo" />
