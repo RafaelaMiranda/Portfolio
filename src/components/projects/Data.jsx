@@ -9,7 +9,7 @@ const Data = () => {
         <div className="pro pro__1">
           <div className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} width={600} height={336} />
             </a>
           </div>
           <div className="pro__text">
@@ -24,11 +24,11 @@ const Data = () => {
             <div className="links">
               <a target="_blank" href="#" rel="noreferrer">
                 Código 
-                <GithubLogo size={24} />
+                <GithubLogo size={24} className="links__icon" />
               </a>
               <a target="_blank" href="#" rel="noreferrer">
                 Demo
-                <Code size={24} />
+                <Code size={24} className="links__icon" />
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Data = () => {
         <div  className="pro pro__1 reversed-proj">
           <div  className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} width={600} height={336} />
             </a>
           </div>
           <div  className="pro__text">
@@ -52,11 +52,11 @@ const Data = () => {
             <div className="links">
               <a target="_blank" href="#" rel="noreferrer">
                 Código 
-                <GithubLogo size={24} />
+                <GithubLogo size={24} className="links__icon" />
               </a>
               <a target="_blank" href="#" rel="noreferrer">
                 Demo
-                <Code size={24} />
+                <Code size={24} className="links__icon" />
               </a>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Data = () => {
         <div className="pro pro__1">
           <div className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} width={600} height={336}/>
             </a>
           </div>
           <div className="pro__text">
@@ -80,11 +80,11 @@ const Data = () => {
             <div className="links">
               <a target="_blank" href="#" rel="noreferrer">
                 Código 
-                <GithubLogo size={24} />
+                <GithubLogo size={24} className="links__icon" />
               </a>
               <a target="_blank" href="#" rel="noreferrer">
                 Demo
-                <Code size={24} />
+                <Code size={24}  className="links__icon" />
               </a>
             </div>
           </div>

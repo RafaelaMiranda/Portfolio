@@ -111,6 +111,14 @@
   font-size: var(--normal-font-size);
 }
 
+.links a  {
+  color: var(--text-color);
+}
+
+.links a:hover {
+  color: var(--title-color-dark);
+}
+
 .links,
 .links a {
   align-items: center;
