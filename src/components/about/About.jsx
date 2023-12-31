@@ -8,8 +8,8 @@ const About = () => {
     <section id="sobre">
       <div className="home__container container grid">
         <div className="grid">
-          <Stack />
           <Data />
+          <Stack />
         </div>
       </div>
     </section>

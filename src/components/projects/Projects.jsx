@@ -5,9 +5,9 @@ import Data from "../projects/Data";
 const Projects = () => {
   return (
     <section id="projetos">
-      <div className="home__container container grid">
+      <div className="container">
         <Data />
-        </div>
+      </div>
     </section>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Code, SquaresFour, User, X, Envelope, House } from "@phosphor-icons/react"
 import './header.css';
 
 const Header = () => {
@@ -13,34 +14,38 @@ const Header = () => {
           <ul className="nav__list">
             <li className="nav__item">
               <a href="#home" className="nav__link">
-                <i className="uil uil-estate nav__icon"></i> Home
+                <House size={26} className="nav__icon" />
+                Home
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#sobre" className="nav__link">
-                <i className="uil uil-user nav__icon"></i> Sobre
+                <User size={26} className="nav__icon" />
+                Sobre
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#projetos" className="nav__link">
-                <i className="uil uil-scenery nav__icon"></i> Projetos
+                <Code size={26} className="nav__icon" />
+                Projetos
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#contato" className="nav__link">
-                <i className="uil uil-message nav__icon"></i> Contato
+                <Envelope size={26} className="nav__icon " />
+                Contato
               </a>
             </li>
           </ul>
 
-          <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
+          <X size={26} onClick={() => showMenu(!Toggle)} className="nav__close " />
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+          <SquaresFour size={26} />
         </div>
       </nav>
     </header>

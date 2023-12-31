@@ -53,7 +53,7 @@
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 } */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1020px) {
   .header {
     top: initial;
     bottom: 0;
@@ -115,7 +115,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media (max-width: 600px) {
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
