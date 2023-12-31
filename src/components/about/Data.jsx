@@ -1,11 +1,12 @@
 import React from "react";
 import CV from "../../assets/rafaela-miranda-cv.pdf";
+import notebook from "../../assets/notebook.webp";
 import { FileText } from "@phosphor-icons/react";
 
 const Data = () => {
   return (
     <div className="about__content">
-      <img src="../../assets/notebook.webp" alt="Imagem de um notebook em cima de uma mesa" className="about__img" width={480} height={320} fetchPriority="low" />
+      <img src={notebook} alt="Imagem de um notebook em cima de uma mesa" className="about__img" width={480} height={320} fetchPriority="low" />
       <div className="about__data">
         <h3 className="about__stack-title">Sobre mim</h3>
         <p className="about__description">
