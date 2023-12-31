@@ -2,7 +2,7 @@ import React from "react";
 import Social from "./Social";
 import coffee from "../../assets/coffee.png";
 import globe from "../../assets/globe.png";
-
+import { ConvertImage } from 'react-convert-image';
 
 const Data = () => {
   return (
