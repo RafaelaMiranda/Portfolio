@@ -9,7 +9,7 @@ const Data = () => {
         <div className="pro pro__1">
           <div className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website"/>
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
             </a>
           </div>
           <div className="pro__text">
@@ -37,7 +37,7 @@ const Data = () => {
         <div  className="pro pro__1 reversed-proj">
           <div  className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website"/>
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
             </a>
           </div>
           <div  className="pro__text">
@@ -65,7 +65,7 @@ const Data = () => {
         <div className="pro pro__1">
           <div className="pro__img">
             <a target="_blank" href="#" rel="noreferrer">
-              <img src="https://via.placeholder.com/600x336" alt="website"/>
+              <img src="https://via.placeholder.com/600x336" alt="website" style={{transform: 'translateY(0%)', transition: 'transform 10s ease-in-out 0s'}} />
             </a>
           </div>
           <div className="pro__text">

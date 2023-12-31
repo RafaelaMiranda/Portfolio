@@ -53,14 +53,12 @@
 }
 
 .projects__grid .pro__img img {
-  height: auto;
   width: 100%;
-  transform: translateY(0%);
-  transition: transform 15s ease-in-out 0s;
+  height: auto;
 }
 
 .projects__grid .pro__img img:hover {
-  transform: translateY(-82%);
+  transform: translateY(-74%) !important;
 }
 
 .projects__grid .pro__text {
@@ -145,9 +143,5 @@
 
   .projects__grid .pro__text {
     margin: 0 auto;
-  }
-
-  .projects__grid .pro__img img:hover {
-    transform: translateY(-90%);
   }
 }
