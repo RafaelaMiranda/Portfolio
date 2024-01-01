@@ -114,8 +114,9 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.section {
-  padding: 6rem 0 2rem;
+
+section {
+  padding-top: 4.5rem !important;
 }
 
 .section__title {
