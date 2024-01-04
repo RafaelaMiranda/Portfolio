@@ -14,7 +14,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
       </main>
       <SpeedInsights />

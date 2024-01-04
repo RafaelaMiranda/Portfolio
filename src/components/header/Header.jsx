@@ -26,12 +26,12 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a href="#projetos" className="nav__link">
                 <Code size={26} className="nav__icon" />
                 Projetos
               </a>
-            </li>
+            </li> */}
 
             <li className="nav__item">
               <a href="#contato" className="nav__link">
