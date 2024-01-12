@@ -6,7 +6,7 @@ const Stack = () => {
     <div className="about__stack">
       <div className="about__stack-container">
         <div className="about__stack-box">
-          <h3 className="about__stack-title">Stack</h3>
+          <h3 className="about__stack-title">Stack e Ferramentas</h3>
           <div className="about__stack-group">
             <div className="about__stack-data">
               <img src="https://skillicons.dev/icons?i=html" alt="HTML logo" />
@@ -43,13 +43,6 @@ const Stack = () => {
               <span>PHP</span>
             </div>
 
-  
-          </div>
-        </div>
-
-        <div className="about__stack-box about__stack-box-2">
-          <h3 className="about__stack-title">Ferramentas</h3>
-          <div className="about__stack-group">
             <div className="about__stack-data">
               <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code logo" />
               <span>VS Code</span>
@@ -79,6 +72,8 @@ const Stack = () => {
               <img src="https://skillicons.dev/icons?i=docker" alt="Docker logo" />
               <span>Docker</span>
             </div>
+
+  
           </div>
         </div>
       </div>

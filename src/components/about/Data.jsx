@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/rafaela-miranda-cv.pdf";
+import CV from "../../assets/cv.pdf";
 import notebook from "../../assets/notebook.webp";
 import { FileText } from "@phosphor-icons/react";
 
