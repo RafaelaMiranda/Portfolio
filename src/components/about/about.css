@@ -149,5 +149,9 @@
   .about__subtitle {
     text-align: center;
   }
+
+  .about__stack-data {
+    align-items: initial;
+  }
 }
 
